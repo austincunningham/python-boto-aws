@@ -1,8 +1,9 @@
-# ReadMe
+# Python-Boto-AWs
 
-This is a project that uses Python 3.4/5 and the boto libary to start/stop Amazon Web Services(AWS) instances. There are also scripts that start services on remote instance.
+This is a project that uses Python 3.4/5 and the Boto library to start/stop Amazon Web Services(AWS) instances. 
+There are also scripts that start services like Nginx and mySQL services on the remote instance.
 
-## Pre-requistes
+## Pre-requisites
 
 To get started, you will need to have the following requirements setup
 
@@ -11,7 +12,7 @@ To get started, you will need to have the following requirements setup
 - ssh/scp installed and allowed access to the internet on port 22
 - An AWS account with RSA public/private key setup see http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html for more information
 - It is required that a copy of your pem file is save in the root of your ~/ home directory
-- You will need your boto libary configured to interact with AWS see http://boto3.readthedocs.io/en/latest/guide/configuration.html for more information
+- You will need your Boto library configured to interact with AWS see http://boto3.readthedocs.io/en/latest/guide/configuration.html for more information
 
 # Starting the App
 - extract the zipped folder and cd to the directory
