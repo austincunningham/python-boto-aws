@@ -17,6 +17,7 @@ To get started, you will need to have the following requirements setup
 # Starting the App
 - Extract the zipped folder and cd to the directory
 - Or git clone this repo
+- cd to the directory and run
 - ./run_newwebserver.py
 
 # Expected output
