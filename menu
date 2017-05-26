@@ -1,0 +1,39 @@
+#!/bin/bash
+# Author: Austin Cunningham
+# Student Number: 20073379
+# Version: 22/10/2016
+
+clear
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[01;33m'
+BLUE='\033[01;34m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+BOLD='\033[1m'
+UNDERLINE='\033[4m'
+echo
+echo -e ${GREEN} ____________________________________________________________ ${NONE}
+echo -e " ${GREEN}              __  __                        ${NONE}"
+echo -e " ${GREEN}             |  \/  |   ___   _ __    _   _ ${NONE}"
+echo -e " ${GREEN}             | |\/| |  / _ \ | '_ \  | | | |${NONE}"
+echo -e " ${GREEN}             | |  | | |  __/ | | | | | |_| |${NONE}"
+echo -e " ${GREEN}             |_|  |_|  \___| |_| |_|  \__,_|${NONE}"
+echo -e ${GREEN} ____________________________________________________________ ${NONE}
+echo -e ${GREEN} ____________________________________________________________ ${NONE}
+echo -e " ${BLUE}       ______________________________________________${NONE} "
+echo -e " ${BLUE}      |                                              |${NONE}"
+echo -e " ${BLUE}      | Welcome. Please choose one of the following: |${NONE}"
+echo -e " ${BLUE}      |                                              |${NONE}"
+echo -e " ${BLUE}      |${NONE}   ${YELLOW}1. Check Security Group ${NONE}                   ${BLUE}|${NONE}"
+echo -e " ${BLUE}      |${NONE}   ${YELLOW}2. Start up AWS instance  ${NONE}                 ${BLUE}|${NONE}"
+echo -e " ${BLUE}      |${NONE}   ${YELLOW}3. Copy file to AWS server ${NONE}                ${BLUE}|${NONE}"
+echo -e " ${BLUE}      |${NONE}   ${YELLOW}4. Run uploaded file   ${NONE}                    ${BLUE}|${NONE}"
+echo -e " ${BLUE}      |${NONE}   ${YELLOW}5. Check the server metrics${NONE}                ${BLUE}|${NONE}"
+echo -e " ${BLUE}      |${NONE}   ${YELLOW}6. Terminate the instance ${NONE}                 ${BLUE}|${NONE}"
+echo -e " ${BLUE}      |                                              |${NONE}"
+echo -e " ${BLUE}      | Enter a Number or q to quit :                |${NONE}"
+echo -e " ${BLUE}      |______________________________________________|${NONE}"
+echo
