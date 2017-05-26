@@ -1,7 +1,7 @@
 # Python-Boto-AWS
 
 This is a project that uses Python 3.4/5 and the Boto library to start/stop Amazon Web Services(AWS) instances. 
-There are also scripts that start services like Nginx and mySQL services on the remote instance.
+There are also scripts that start services like Nginx and mySQL servers on the remote instance.
 
 ## Pre-requisites
 
@@ -15,7 +15,8 @@ To get started, you will need to have the following requirements setup
 - You will need your Boto library configured to interact with AWS see http://boto3.readthedocs.io/en/latest/guide/configuration.html for more information
 
 # Starting the App
-- extract the zipped folder and cd to the directory
+- Extract the zipped folder and cd to the directory
+- Or git clone this repo
 - ./run_newwebserver.py
 
 # Expected output
