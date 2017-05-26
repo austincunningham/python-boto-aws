@@ -1,4 +1,4 @@
-# Python-Boto-AWs
+# Python-Boto-AWS
 
 This is a project that uses Python 3.4/5 and the Boto library to start/stop Amazon Web Services(AWS) instances. 
 There are also scripts that start services like Nginx and mySQL services on the remote instance.
