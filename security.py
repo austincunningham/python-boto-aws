@@ -1,6 +1,7 @@
 # Author: Austin Cunningham
 # Student Number: 20073379
 # Version: 22/10/2016
+# -*- coding: utf-8 -*-
 
 import subprocess
 import time
@@ -68,7 +69,7 @@ def security(conn):
     # find all security groups
     # if the lengtt of all security groups is greater that one then there is more than the default group present
     # create security group for http and ssh
-    # Note that ‘0.0.0.0/0’ indicates authorization of traffic from any IP address
+    # Note that 0.0.0.0/0 indicates authorization of traffic from any IP address
 
     print(colours.RED+"Enter security group name"+colours.NONE)
     securityName = input(":>")

@@ -2,6 +2,7 @@
 # Author: Austin Cunningham
 # Student Number: 20073379
 # Version: 22/10/2016
+# -*- coding: utf-8 -*-
 
 import subprocess
 import sys
@@ -105,7 +106,7 @@ def inputPem():
     output = 1
     while output != 0 :
         print("\nEnter pem filename without extention")
-        cp.pem = input(">:")
+             cp.pem = input(">:")
         output = subprocess.call("test -f ~/" + cp.pem + ".pem", shell=True)
         if output != 0:
             print(colours.RED +"Pem file " + cp.pem + ".pem not found in your home directory,\ncheck the to see if the file exists and try again"+ colours.NONE)
